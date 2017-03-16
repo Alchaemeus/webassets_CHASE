@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #{
     margin: 0;
     padding: 0;
@@ -161,3 +162,168 @@ body{
 	text-shadow: 2px 1px 2px black;
 	
 }
+=======
+#{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style: none;
+}
+
+.navi_item{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.toggle_menu{
+    position:fixed;
+    padding: 15px 20px 15px 15px;
+    color: white;
+    cursor: pointer;
+    background-color: dimgrey;
+    z-index: 10000000;
+    font-size: 2em;
+	margin-top: 70px;
+	opacity: 0;
+
+}
+
+.sidebar_menu{
+    position: fixed;
+    width: 250px;
+    margin-left: 0px;
+    overflow: hidden;
+    height:100vh;
+    max-height: 100vh;
+    background-color: rgba(17,17,17,0.9);
+    opacity: 0.9;
+    transition: all 0.4s ease-in-out;
+}
+
+.fa-times{
+  padding: 3px 5px;
+    opacity:0.3;
+    cursor: pointer;
+	float: right;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.fa-times:hover{
+    opacity: 1;
+}
+
+.boxeditem{
+	padding: 10px 20px;
+	display: inline-block;
+	border: solid 2px white;
+	box-sizing: border-box;
+	margin-top: 70px;
+	
+}
+
+.logobox{
+    padding: 0px 0px;
+    display: inline-block;
+    width: 150px;
+    height: 65px;
+	margin-top: 20px;
+	background-image: url('img/logo-01.png');
+	
+}
+
+
+
+.navi_select {
+    margin: 20px 0;
+    display: block;
+    width: 200px;
+    margin-left:30px;
+	margin-top: 70px;
+}
+
+.navi_item {
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding: 12px 0px;
+    font-size: 14px;
+    color: #D8D8D8;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+	text-align: center
+	float:left;
+	opacity: .4;
+}
+
+.navi_item:hover {
+	opacity: 1;
+}
+
+.contactbutton{
+    font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+    color:#D8D8D8;
+    width:150px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    border-width: 1px;
+    margin: 5px 0 20px 0;
+	font-weight: 200;
+    padding: 5px 0;
+    
+}
+.contactbutton:hover{
+    background-color: white;
+    color:#111;
+    transition: all 0.4s ease-in-out;
+}
+
+.hide_menu{
+    margin-left: -250px;
+}
+
+.opacity_one{
+	opacity: .7;
+	transition: all 0.5s ease-in-out;
+}
+
+.content  {
+	padding-top: 200px;
+	height: 2000px;
+	background-image: url(/img/bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	transition: transform 0.4s ease-in-out;
+}
+.content h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	color: white;
+	text-align: left;
+	margin-right: 60px;
+	margin-left: 450px;
+}
+.content p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	color: white;
+	font-size: 12px;
+	text-align: left;
+	margin-right: 60px;
+	margin-left: 400px;
+	text-shadow: 2px 1px 2px black;
+	
+}
+>>>>>>> origin/master
